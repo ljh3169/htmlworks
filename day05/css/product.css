@@ -1,7 +1,11 @@
+*{margin: 0; padding: 0;}
 #container{
-    width: 800px;
+    width: 1000px;
     margin: 20px auto; 
     border: none;
+}
+header{
+    height: 80px;
 }
 table, th, td{
     border: 1px solid #ccc;
@@ -18,23 +22,32 @@ section{
     height: 600px;
     width: 750px;
 }
-div{
+/* div{
     border:1px solid #ccc;
     padding: 20px;
     width: 700px;
     margin-bottom: 20px;
-}
+} */
 #description{
+    border:1px solid #ccc;
+    height: 500px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    padding: 20px;
 }
 #product{
+    padding: 20px;
+    border:1px solid #ccc;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
 }
 #description p{
     line-height: 1.5em;
 }
-#recepei p{
+#receipe p{
     line-height: 1.5em;
+}
+#receipe {
+    padding: 20px;
+    border:1px solid #ccc;
 }
