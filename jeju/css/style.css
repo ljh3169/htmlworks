@@ -33,14 +33,22 @@ header #topMenu li a:hover{color: #2fb2fd;;}
 #product #pakage{border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;}
 #product table, th, td{border: 1px solid #ccc; border-collapse: collapse; padding: 10px 20px; text-align: center;}
 
-/* about_me 스타일 */
-#profile{width: 900px; margin: 30px auto;}
-#profile #intro{margin-bottom: 10px; }
-#profile #intro h2{margin: 15px; color: blue;}
-#profile img{float:left; margin:10px 30px;}
-#profile ul{border-top: 1px solid #222;}
-#profile ul li{line-height: 1.5em; margin-left: 200px;}
-#profile p{margin-top:20px; text-decoration: none; line-height: 0.3em;}
+/* About Me 스타일 */
+#profile{width: 1000px; margin: 30px auto; }
+#profile section{margin: 20px 10px;}
+#profile section h2{margin: 20px; color: blue;}
+#profile section div{margin: 30px 10px;}
+#profile #intro{height: 350px;}
+#profile #intro h1{font-size: 2em;}
+#profile #intro p{line-height: 1.8em;}
+#profile #intro img{float: left; margin-right: 30px; border-radius: 5px;}
+#profile #intro a{text-decoration: none; color: #00f;}
+#profile #intro a:hover{text-decoration: underline;}
+#profile #career ul li{margin: 16px 50px;}
+#profile #education ul li{margin: 16px 50px;}
+#profile #skill ul li{margin: 16px 50px;}
+#profile #skill ul li a{text-decoration: none; color: #00f;}
+#profile #skill ul li a:hover{text-decoration: underline; }
 
 
 /* footer 스타일 */
