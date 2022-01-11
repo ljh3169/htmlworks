@@ -18,7 +18,7 @@
                     <li>
                         <label>
                             <input type="checkbox" value='g_3'> 선물용 3kg
-                            <input type="number" min='0' max='3' value='1'> (최대 3개)
+                            <input type="number" min='0' max='5' value='1'> (최대 5개)
                         </label>
                     </li>
                     <li>
@@ -46,11 +46,12 @@
                 <ul id='shipping'>
                     <li>
                         <label for='name'>이름</label>
-                        <input type="text" name="name" id='name'>
+                        <input type="text" name="name" id='name' autofocus required>
+                        <!-- autofocus - 커서위치 자동설정, required - 필수 입력란 설정 -->
                     </li>
                     <li>
                         <label for='adress'>배송 주소</label>
-                        <input type="text" name="address" id='address'>
+                        <input type="text" name="address" id='address' required>
                     </li>
                     <li>
                         <label for='email'>이메일</label>
@@ -58,7 +59,8 @@
                     </li>
                     <li>
                         <label for='phone'>연락처</label>
-                        <input type="tel" name="phone" id='phone'>
+                        <input type="tel" name="phone" id='phone' required
+                                placeholder="하이픈(-)을 빼고 입력해주세요.">
                     </li>
                 </ul>
             </fieldset>
